@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+body {
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    background-color: rgb(138, 138, 138);
+    max-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.main_container .nav1 {
+    display: flex;
+    padding: 14px 25px 10px 25px;
+    margin: 0 50px 0 50px;
+    justify-content: space-between;
+}
+
+
+
+.main_container .nav1 .left_nav {
+    float: right;
+    display: flex;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 290px;
+    background: linear-gradient(to right, #ff0075 0%, #001092 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+}
+
+.main_container .nav1 .right {
+    float: left;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 498px;
+}
+
+
+.nav1 .right a {
+    text-decoration: none;
+    display: flex;
+    color: #292621;
+    font-size: 13px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.nav1 li {
+    display: inline-block;
+    padding-right: 20px;
+    border-right: 1px solid #e0e2e6;
+
+
+}
+
+.main_container .nav1 a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 14px 25px 10px 25px;
+    margin: 0 50px 0 50px;
+}
+
+
+.container .srch_container {
+    /* line-height: 2; */
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    margin-top: 25vh;
+    /* justify-content: flex-start; */
+    margin-left: 10vh;
+    padding: 10px 10px 20px 10px;
+}
+
+.search {
+    display: flex;
+    /* background-color: green; */
+}
+
+
+.srch_container .content_text {
+    line-height: 3;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.srch_container .content_text p {
+    text-shadow: 2px 2px 2px rgba(72, 69, 69, 0.445);
+    line-height: 2;
+}
+
+
+.search>input[type=text] {
+    font-size: 20px;
+    width: 100%;
+    border: 1.5px solid #EEEFF0;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    letter-spacing: 1.5px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+::-ms-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+*/ .search .btn_search {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.container .side_container .box_container {
+    background-color: #ffffff40;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: 3fr 2fr; */
+    flex-direction: column;
+    margin-top: 13vh;
+    justify-content: flex-start;
+    margin-right: 5vh;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0 4px 5px 3px #00000047;
+
+}
+
+.side_container .box_container .grid-item {
+    padding: 20px;
+    /* border-radius: 20px; */
+    /* border: 2px solid red; */
+
+}
+
+.side_container .box_container .grid-item1,
+.grid-item3 {
+    border-right: 3px solid rgb(255 255 255 / 66%);
+}
+
+.side_container .box_container .grid-item4,
+.grid-item3 {
+    border-top: 3px solid rgb(255 255 255 / 66%);
+}
+
+.side_container .box_container img {
+
+    border-radius: 5px;
+    width: 200px;
+
+    /* cursor: pointer; */
+    transition: 0.3s;
+    filter: blur(1px);
+
+}
+
+.side_container .box_container a {
+    text-decoration: none;
+
+}
+
+
+/* .side_container .box_container p{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    background-image:linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+	-webkit-text-fill-color: transparent;
+} */
+.side_container .box_container .medical,
+.eng,
+.law,
+.bsc {
+    position: relative;
+}
+
+
+
+.side_container .box_container .medi1 {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 18px;
+    border-bottom: 2px solid red;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff0000 0%, #2000ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.side_container .box_container .medi1:hover {
+    font-size: 23px;
+    border-bottom: 2px solid red;
+    transition: .3s;
+    text-decoration: none;
+    display: block;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    background: linear-gradient(to right, #FF0001 0%, #2000ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+.side_container .box_container .eng1 {
+    position: absolute;
+    top: 51px;
+    left: 21px;
+    border-bottom: 2px solid red;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff0000 0%, #2000ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.side_container .box_container .eng1:hover {
+    font-size: 19px;
+    border-bottom: 2px solid red;
+    transition: .3s;
+    text-decoration: none;
+    display: block;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    background: linear-gradient(to right, #FF0001 0%, #2000ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+.side_container .box_container .law1 {
+    position: absolute;
+    top: 85px;
+    left: 45px;
+    border-bottom: 2px solid red;
+    background: linear-gradient(to right, #ff0000 0%, #2000ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.side_container .box_container .law1:hover {
+    font-size: 23px;
+    border-bottom: 2px solid red;
+    transition: .3s;
+    text-decoration: none;
+    display: block;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    background: linear-gradient(to right, #FF0001 0%, #2000ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+.side_container .box_container .bsc1 {
+    position: absolute;
+    top: 85px;
+    left: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    background: linear-gradient(to right, #ff0000 0%, #2000ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.side_container .box_container .bsc1:hover {
+    font-size: 23px;
+    border-bottom: 2px solid red;
+    transition: .3s;
+    text-decoration: none;
+    display: block;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    background: linear-gradient(to right, #FF0001 0%, #2000ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+
+
+
+
+.side_container .box_container img:hover {
+    /* width: 250px; */
+    /* height: 250px; */
+    transition: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+.header .main_vd {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    /* opacity: .6; */
+    z-index: -1;
+    filter: blur(7px);
+}
+
+@media (min-aspect-ration:16/9) {
+    .main_vd {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ration:16/9) {
+    .main_vd {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.container .srch_container .content_text {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ff0075 0%, #001092 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
