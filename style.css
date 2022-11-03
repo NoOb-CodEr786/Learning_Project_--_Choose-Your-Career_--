@@ -381,11 +381,36 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width:768px) and (min-width:481px) {
-    .main_vd{
-        height: 100vh;
+@media screen and (max-width:767px) { 
+    .main_vd
+    {
+        height: 100%;
         width: auto;
     }
+    
+    .main_container .nav1 .left_nav
+    {
+        font-size: 12px;
+        margin:20px;
+        
+    }
+
+    .nav1 .right li
+    {
+        display:block;
+        margin:25px;
+        
+    }
+
+    
+        
+    .main_container .nav1
+    {
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+}
     
     
 }
