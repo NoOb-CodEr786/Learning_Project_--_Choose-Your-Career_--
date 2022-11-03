@@ -483,3 +483,27 @@ body {
     
     
 }
+
+@media screen and (max-width:480px)
+{
+    .container .side_container .box_container {
+    background-color: #ffffff40;
+    border-radius: 10px;
+    display: flex;
+        flex-wrap:wrap;
+    grid-template-columns: auto auto;
+    flex-direction: column;
+    margin-top: 13vh;
+    justify-content: flex-start;
+    margin-right: 0vh;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0 4px 5px 3px #00000047;
+
+    }
+
+    .main_vd
+    {
+        height: 100%;
+        width: auto;   
+    }
+}
