@@ -380,3 +380,12 @@ body {
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .main_vd{
+        height: 100vh;
+        width: auto;
+    }
+    
+    
+}
