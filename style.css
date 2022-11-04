@@ -489,8 +489,8 @@ body {
     .container .side_container .box_container {
     background-color: #ffffff40;
     border-radius: 10px;
-    display: flex;
-        flex-wrap:wrap;
+    display: inline-block;
+        /* flex-wrap:wrap; */
     grid-template-columns: auto auto;
     flex-direction: column;
     margin-top: 13vh;
@@ -505,5 +505,73 @@ body {
     {
         height: 100%;
         width: auto;   
+    }
+
+    .main_container .nav1
+    {
+        padding: 14px 25px 10px 25px;
+    }
+
+    .main_container .nav1 .left_nav {
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .nav1 .right a {
+        text-decoration: none;
+        display: block;
+        color: #292621;
+        font-size: 13px;
+        margin-left: 0px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .main_container .nav1 .right
+    {
+        display: block;
+    }
+
+    .nav1 li
+    {
+        padding-right:0px;
+        border-right:none;
+    }
+
+    .header .container
+    {
+        padding: 14px 25px 10px 25px;
+        margin:0px;
+        display: block;
+    }
+
+    .container .srch_container
+    {
+        margin-top: 15vh;
+        margin-left: 0vh;
+        width: auto;
+    }
+
+    .srch_container .content_text
+    {
+        font-size: 15px;
+    }
+
+    .side_container .box_container .grid-item1, .grid-item3 {
+        border-right:none;
+    }
+
+    .side_container .box_container .grid-item2
+    {
+        border-top: 3px solid rgb(255 255 255 / 66%);
+    }
+
+    .side_container
+    {
+        display: flex;
+        justify-content: center;
     }
 }
