@@ -1,5 +1,4 @@
-html
-{
+html {
     scroll-behavior: smooth;
 }
 
@@ -7,7 +6,7 @@ html
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-color: white;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
@@ -24,18 +23,16 @@ body {
 
 }
 
-.header .nav .nav1
-{
-    
+.header .nav .nav1 {
+
     display: flex;
     padding: 14px 75px 10px 75px;
     /* margin: 0 50px 0 50px; */
     justify-content: space-between;
-    
+
 }
 
-.header .nav1 .left_nav
-{
+.header .nav1 .left_nav {
     float: right;
     display: flex;
     word-spacing: 5px;
@@ -44,11 +41,10 @@ body {
     width: 290px;
     color: white;
     font-weight: bolder;
-    
+
 }
 
-.header .nav1 .right
-{
+.header .nav1 .right {
     float: left;
     display: flex;
     text-transform: uppercase;
@@ -75,10 +71,8 @@ body {
 
 }
 
-.nav1 
-{
+.nav1 {
     background: rgb(0, 0, 0)
-    
 }
 
 .header .nav1 a:hover {
@@ -87,12 +81,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.container .mid_container .main_content h2
-{
+.container .mid_container .main_content h2 {
     margin-top: 4rem;
     /* border-bottom: 2px solid white; */
     width: 21rem;
-    
+
     background-image: linear-gradient(90deg, #00ffec, #31ff00);
     -webkit-background-clip: text;
     color: transparent;
@@ -102,23 +95,20 @@ body {
 }
 
 
-.container .mid_container .cardview
-{
+.container .mid_container .cardview {
     display: flex;
     justify-content: space-between;
     margin: 4rem 5rem;
-    
-    
+
+
 }
 
-.container .mid_container
-{
+.container .mid_container {
     max-width: 1380px;
     margin: auto;
 }
 
-.container .mid_container .cardview .card1
-{
+.container .mid_container .cardview .card1 {
     display: flex;
     outline: none;
     border-radius: 9px;
@@ -128,43 +118,39 @@ body {
     transition: .3s;
 }
 
-.container .mid_container .cardview .card1:hover ,.card2:hover,.card3:hover
-{
+.container .mid_container .cardview .card1:hover,
+.card2:hover,
+.card3:hover {
     /* background-color: tomato; */
     box-shadow: 0 5px 10px rgb(247 48 151 / 60%);
 }
 
-.container .mid_container .cardview .card1 img
-{
+.container .mid_container .cardview .card1 img {
     width: 285px;
     margin: 9px;
     border-radius: 9px 9px 0px 0px;
-    
+
 }
 
-.container .mid_container .cardview .card1 .card_detail
-{
+.container .mid_container .cardview .card1 .card_detail {
     display: flex;
     flex-direction: column;
     gap: 2px;
     margin: 20px 20px;
 }
 
-.container .mid_container .cardview .card1 .card_detail p
-{
+.container .mid_container .cardview .card1 .card_detail p {
     font-size: 12px;
 }
 
-.container .mid_container .cardview .card1 .card_detail .card_detail2
-{
+.container .mid_container .cardview .card1 .card_detail .card_detail2 {
     font-size: 12px;
     margin: 2rem 0px 0rem;
     display: flex;
     justify-content: space-between;
 }
 
-.container .mid_container .cardview .card2
-{
+.container .mid_container .cardview .card2 {
     display: flex;
     outline: none;
     border-radius: 9px;
@@ -174,37 +160,32 @@ body {
     transition: .3s;
 }
 
-.container .mid_container .cardview .card2 img
-{
+.container .mid_container .cardview .card2 img {
     width: 285px;
     margin: 9px;
     border-radius: 9px 9px 0px 0px;
-    
+
 }
 
-.container .mid_container .cardview .card2 .card_detail
-{
+.container .mid_container .cardview .card2 .card_detail {
     display: flex;
     flex-direction: column;
     gap: 2px;
     margin: 20px 20px;
 }
 
-.container .mid_container .cardview .card2 .card_detail p
-{
+.container .mid_container .cardview .card2 .card_detail p {
     font-size: 12px;
 }
 
-.container .mid_container .cardview .card2 .card_detail .card_detail2
-{
+.container .mid_container .cardview .card2 .card_detail .card_detail2 {
     font-size: 12px;
     margin: 2rem 0px 0rem;
     display: flex;
     justify-content: space-between;
 }
 
-.container .mid_container .cardview .card3
-{
+.container .mid_container .cardview .card3 {
     display: flex;
     outline: none;
     border-radius: 9px;
@@ -214,75 +195,69 @@ body {
     transition: .3s;
 }
 
-.container .mid_container .cardview .card3 img
-{
+.container .mid_container .cardview .card3 img {
     width: 285px;
     margin: 9px;
     border-radius: 9px 9px 0px 0px;
-    
+
 }
 
-.container .mid_container .cardview .card3 .card_detail
-{
+.container .mid_container .cardview .card3 .card_detail {
     display: flex;
     flex-direction: column;
     gap: 2px;
     margin: 20px 20px;
 }
 
-.container .mid_container .cardview .card3 .card_detail p
-{
+.container .mid_container .cardview .card3 .card_detail p {
     font-size: 12px;
 }
 
-.container .mid_container .cardview .card3 .card_detail .card_detail2
-{
+.container .mid_container .cardview .card3 .card_detail .card_detail2 {
     font-size: 12px;
     margin: 2rem 0px 0rem;
     display: flex;
     justify-content: space-between;
 }
 
-.foot 
-{
+.foot {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 10rem 0px;
     padding: 5rem 8rem 2rem 8rem;
     /* max-width: 1340px; */
-    
+
     background: #000000;
 }
 
-.foot .right_side .links
-
-{
+.foot .right_side .links {
     line-height: 2.3rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 6rem;
 }
 
-.foot .right_side .links .link
-{
+.foot .right_side .links .link {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 2rem;
 }
 
-.foot .right_side .links .link h4{
+.foot .right_side .links .link h4 {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
-    
+
 }
 
-.foot .right_side .links .link li
-{
+.foot .right_side .links .link li {
     list-style-type: none;
 }
 
-.foot .right_side .links .link a{
+.foot .right_side .links .link a {
     background-image: linear-gradient(90deg, #00ffec, #31ff00);
     -webkit-background-clip: text;
     color: transparent;
@@ -290,8 +265,7 @@ body {
     text-decoration: none;
 }
 
-.foot .right_side .links .link a:hover
-{
+.foot .right_side .links .link a:hover {
     background-image: linear-gradient(90deg, #deff00, #ffb500);
     -webkit-background-clip: text;
     color: transparent;
@@ -300,15 +274,14 @@ body {
 
 }
 
-.foot .brand_side
-{
+.foot .brand_side {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 2rem;
 }
 
-.foot .brand_side .content
-{
+.foot .brand_side .content {
     color: white;
     font-size: 35px;
     width: 16rem;
@@ -317,15 +290,13 @@ body {
 
 
 
-.foot .brand_side .copy
-{
+.foot .brand_side .copy {
     color: white;
     margin-top: 5rem;
 }
 
 
-.foot .brand_side .copy a
-{
+.foot .brand_side .copy a {
     margin-left: 3px;
     background-image: linear-gradient(90deg, #00ffec, #31ff00);
     -webkit-background-clip: text;
@@ -334,14 +305,12 @@ body {
     text-decoration: none;
 }
 
-.foot .brand_side .copy a:hover
-{
+.foot .brand_side .copy a:hover {
     background-image: linear-gradient(90deg, #deff00, #ffb500);
     /* border-bottom: 1px solid royalblue; */
 }
 
-.foot .brand_side .main_icons .fa-brands
-{
+.foot .brand_side .main_icons .fa-brands {
     font-size: 20px;
     margin-left: 3px;
     background-image: linear-gradient(90deg, #00ffec, #31ff00);
@@ -351,9 +320,127 @@ body {
     margin: 0px 17px 0px 0px;
 }
 
-.foot .brand_side .main_icons .fa-brands:hover
-{
+.foot .brand_side .main_icons .fa-brands:hover {
     background-image: linear-gradient(90deg, #deff00, #ffb500);
     cursor: pointer;
 
+}
+
+@media screen and (max-width:480px) {
+
+    .header .nav .nav1 {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav .nav1 {
+        padding: 14px 25px 10px 25px;
+    }
+
+    .header .nav1 .left_nav {
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .header .nav1 .right {
+        display: block;
+    }
+
+    .nav1 li {
+        padding-right: 0px;
+        border-right: none;
+        display: block;
+        margin: 25px;
+    }
+
+    .nav1 .right a {
+        text-decoration: none;
+        display: block;
+        color: #292621;
+        font-size: 13px;
+        margin-left: 0px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .main_back .img1 img {
+        width: 468px;
+        position: relative;
+        top: 4rem;
+        right: 0px;
+        background-size: cover;
+    }
+
+    .overlayer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container .main_back .overlayer .cont_bar {
+        width: 420px;
+    }
+
+    .overlayer .right_cont {
+        margin-top: 15rem;
+        margin-right: 0rem;
+    }
+
+    .foot {
+        top: 60rem;
+        gap: 2rem;
+        padding: 5rem 3rem 2rem 4rem;
+    }
+
+    .foot .brand_side .content {
+        font-size: 30px;
+    }
+
+    .foot .brand_side .main_icons .fa-brands {
+        font-size: 15px;
+    }
+
+    .main_icons {
+        margin-top: -20px;
+    }
+
+    .foot .brand_side .copy {
+        display: none;
+    }
+
+    .foot .right_side .links {
+        gap: 4rem;
+    }
+
+    .container .mid_container {
+        max-width: 380px;
+        margin: auto;
+    }
+
+    .container .mid_container .main_content h2 {
+        font-size: 30px;
+    }
+
+    .container .mid_container .main_content p {
+        font-size: 13px;
+    }
+
+    .container .mid_container .cardview {
+        display: flex;
+        justify-content: flex-start;
+        /* width: 100%; */
+        gap: 2rem;
+        margin: 4rem 0rem;
+        padding: 10px;
+        /* background-color: red; */
+        width: 100%;
+        overflow: auto;
+        white-space: nowrap;
+    }
 }
