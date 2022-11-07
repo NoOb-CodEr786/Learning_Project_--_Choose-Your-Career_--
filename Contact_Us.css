@@ -525,3 +525,36 @@ textarea::placeholder
         gap: 4rem;
     }
 }
+
+@media screen and (max-width:420px)
+{
+    .main_back .img1 img
+    {
+        width: 413px;
+    }
+
+    .container .main_back .overlayer .cont_bar
+    {
+        width: 350px;
+        height: 625px;
+    }
+    .container .main_back .overlayer .cont_bar .cont
+    {
+        margin: 12px 4px;
+    }
+
+    .container .main_back .overlayer .cont_bar .inputbox label
+    {
+        font-size: 15px;
+    }
+
+    .foot .right_side .links .link h4
+    {
+        font-size: 18px;
+    }
+
+    .foot .right_side .links .link a
+    {
+        font-size: 14px;
+    }
+}
