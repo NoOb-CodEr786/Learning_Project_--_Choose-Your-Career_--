@@ -444,3 +444,22 @@ body {
         white-space: nowrap;
     }
 }
+
+
+@media screen and (max-width:420px)
+{
+    .container .mid_container
+    {
+        max-width: 360px;
+    }
+
+    .foot .right_side .links .link h4
+    {
+        font-size: 18px;
+    }
+
+    .foot .right_side .links .link a
+    {
+        font-size: 14px;
+    }
+}
