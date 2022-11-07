@@ -738,3 +738,142 @@ body {
 }
 
 
+@media screen and (max-width:420px)
+{
+    .container .side_container .box_container {
+    background-color: #ffffff40;
+    border-radius: 10px;
+    display: inline-block;
+        /* flex-wrap:wrap; */
+    grid-template-columns: auto auto;
+    flex-direction: column;
+    margin-top: 10vh;
+    justify-content: flex-start;
+    margin-right: 0vh;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0 4px 5px 3px #00000047;
+
+    }
+
+    .main_vd
+    {
+        height: 100%;
+        width: auto;   
+    }
+
+    .main_container .nav1
+    {
+        padding: 14px 25px 10px 25px;
+    }
+
+    .main_container .nav1 .left_nav {
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .nav1 .right a {
+        text-decoration: none;
+        display: block;
+        color: #292621;
+        font-size: 13px;
+        margin-left: 0px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .main_container .nav1 .right
+    {
+        display: block;
+    }
+
+    .nav1 li
+    {
+        padding-right:0px;
+        border-right:none;
+    }
+
+    .header .container
+    {
+        /* padding: 14px 25px 10px 25px;  */
+    width: 100%;
+    margin: auto;
+    padding: 30px 20px 10px 20px;
+    display: block;
+    }
+
+    .container .srch_container
+    {
+        margin-top: 10vh;
+        margin: 40px auto 0px auto;
+        width: 100%;
+    }
+
+    .srch_container .content_text
+    {
+        font-size: 15px;
+    }
+
+    .side_container .box_container .grid-item1, .grid-item3 {
+        border-right:none;
+    }
+
+    .side_container .box_container .grid-item2
+    {
+        border-top: 3px solid rgb(255 255 255 / 66%);
+    }
+
+    .side_container
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .foot
+    {
+        top: 60rem;
+        gap: 2rem;
+        padding: 5rem 3rem 2rem 4rem;
+    }
+
+    .foot .brand_side .content
+    {
+        font-size: 30px;
+    }
+
+    .foot .brand_side .main_icons .fa-brands
+    {
+        font-size: 15px;
+    }
+    .main_icons
+    {
+        margin-top: -20px;
+    }
+    .foot .brand_side .copy
+    {
+        display: none;
+    }
+
+    .foot .right_side .links
+    {
+        gap: 4rem;
+    }
+
+    .foot .right_side .links .link h4
+    {
+        font-size: 18px;
+    }
+
+
+    .foot .right_side .links .link a
+    {
+        font-size: 14px;
+    }
+    
+
+}
+
