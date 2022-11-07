@@ -494,3 +494,62 @@ body {
 
 
 }
+
+@media screen and (max-width:420px)
+{
+    
+/*--------------------------------------------- //change//--------------------------------------- */
+    .container .main_img img
+    {
+        width: 400px;
+        position: relative;
+        top: 9rem;
+        right: -100px;
+    }
+
+    .mid_container .mid_part .box_container img
+    {
+        width: 125px;
+    }
+
+    .mid_container .mid_part .box_container .eng1
+    {
+        font-size: 11px;
+    }
+    .mid_container .mid_part .box_container .bsc1
+    {
+        font-size: 11px;
+    }
+    .mid_container .mid_part .box_container .law1
+    {
+        font-size: 11px;
+    }
+    .mid_container .mid_part .box_container .medi1
+    {
+        font-size: 11px;
+    }
+
+    
+
+
+    .mid_container .mid_part .box_container img:hover {
+        width: 150px; 
+        height: auto; 
+        cursor: pointer;
+       transition: 0.5s;
+       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+
+    .foot .right_side .links .link h4
+    {
+        font-size: 18px;
+    }
+
+    .foot .right_side .links .link a
+    {
+        font-size: 14px;
+    }
+
+
+}
