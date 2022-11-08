@@ -23,32 +23,6 @@ body {
     overflow-x: hidden;
 
 }
-.container .loader
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.disappear
-{
-    animation: getOut 2s forwards;
-}
-
-@keyframes getOut
-{
-    100%
-    {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
 
 
 .main_container .nav1 {
