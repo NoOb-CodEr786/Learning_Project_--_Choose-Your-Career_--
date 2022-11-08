@@ -558,3 +558,32 @@ textarea::placeholder
         font-size: 14px;
     }
 }
+
+@media screen and (max-width:360px)
+{
+    .main_back .img1 img
+    {
+        width: 340px;
+        right: 0px;
+    }
+
+    .main_back, .overlayer
+    {
+        max-width: 330px;
+    }
+
+    .foot .right_side .links .link h4
+    {
+        font-size: 13px;
+    }
+
+    .foot .right_side .links .link a
+    {
+        font-size: 11px;
+    }
+
+    .foot .right_side .links
+    {
+        line-height: 1.7rem;
+    }
+}
