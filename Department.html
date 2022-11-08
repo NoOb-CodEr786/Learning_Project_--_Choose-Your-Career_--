@@ -18,6 +18,10 @@
 <body>
     <div class="container">
 
+        <div class="loader">
+            <img src="pg_loader/loader.gif" alt="loader">
+        </div>
+        
         <div class="main_img">
             <img src="images/department_img2.png" alt="">
             <!-- <h1>color ovesrlayer</h1> -->
@@ -135,6 +139,16 @@
                 </div>
             </div>
         </footer>
+    
+    <script>
+    var loader = document.querySelector(".loader")
+    window.addEventListener("load",getOut);
+
+    function getOut()
+    {
+        loader.classList.add("disappe")
+    }
+</script>
     
 </body>
 
