@@ -559,8 +559,13 @@ body {
     /*--------------------------------------------- //change//--------------------------------------- */
     .container .main_img img {
         /* width: 400px; */
-        width: 371px;
+        width: 358px;
 
+    }
+
+    .container .main_img img
+    {
+        top: 12rem;
     }
 
     .mid_container .content {
@@ -581,17 +586,7 @@ body {
 
     .mid_container .mid_part .box_container img:hover
     {
-        width: 118px;
-    }
-
-    .foot .right_side .links .link h4
-    {
-        font-size: 10px;
-    }
-
-    .foot .right_side .links .link a
-    {
-        font-size: 13px;
+        width: 112px;
     }
 
 
