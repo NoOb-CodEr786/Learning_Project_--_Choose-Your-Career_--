@@ -571,19 +571,4 @@ textarea::placeholder
     {
         max-width: 330px;
     }
-
-    .foot .right_side .links .link h4
-    {
-        font-size: 13px;
-    }
-
-    .foot .right_side .links .link a
-    {
-        font-size: 11px;
-    }
-
-    .foot .right_side .links
-    {
-        line-height: 1.7rem;
-    }
 }
