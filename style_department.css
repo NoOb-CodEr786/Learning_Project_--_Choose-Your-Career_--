@@ -553,3 +553,44 @@ body {
 
 
 }
+
+@media screen and (max-width:390px) {
+
+    /*--------------------------------------------- //change//--------------------------------------- */
+    .container .main_img img {
+        /* width: 400px; */
+        width: 371px;
+
+    }
+
+    .mid_container .content {
+        font-size: 10px;
+        /* position: relative; */
+        top: 18rem;
+
+    }
+
+    .mid_container .mid_part .box_container img
+    {
+        width: 117px;
+    }
+
+    .mid_container .mid_part .box_container img:hover
+    {
+        width: 121px;
+    }
+
+    .foot .right_side .links .link h4
+    {
+        font-size: 16px;
+    }
+
+    .foot .right_side .links .link a
+    {
+        font-size: 13px;
+    }
+
+
+
+
+}
