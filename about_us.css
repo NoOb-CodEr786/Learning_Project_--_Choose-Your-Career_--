@@ -463,3 +463,11 @@ body {
         font-size: 14px;
     }
 }
+
+@media screen and (max-width:360px)
+{
+    .container .mid_container
+    {
+        max-width: 328PX;
+    }
+}
